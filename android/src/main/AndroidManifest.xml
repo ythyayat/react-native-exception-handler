@@ -3,7 +3,9 @@
     package="com.masteratul.exceptionhandler">
 
     <application>
-        <activity android:name=".DefaultErrorScreen">
+        <activity 
+            android:name=".DefaultErrorScreen"
+            android:exported="true" >
         </activity>
     </application>
 
